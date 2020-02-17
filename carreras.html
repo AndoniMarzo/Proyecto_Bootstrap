@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Proyecto Bootstrap</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- Cabecera -->
+        <div class="row py-3">
+            <!-- Logo -->
+            <div class="col-sm-2">
+                <div class="text-center">
+                    <img src="images/logo.png" class="img-fluid" alt="logo">
+                </div>
+            </div>
+
+            <div class="col-sm-2">
+                <h1>TRIATLÓN</h1>
+            </div>
+            <!-- Desplegable idioma -->
+            <div class="col-sm-4" style="margin: auto;">
+                <div class="text-center">
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-secondary">English</button>
+                        <button type="button" class="btn btn-secondary">Español</button>
+                        <button type="button" class="btn btn-secondary">Euskera</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Buscador -->
+            <div class="col-sm-4" style="margin: auto;">
+                <div class="text-center">
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Menu -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Actividades
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="instalaciones.html">Instalaciones</a>
+                            <a class="dropdown-item" href="entrenamientos.html">Entrenamientos</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Competiciones
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="carreras.html">Carreras</a>
+                            <a class="dropdown-item" href="sorteos.html">Sorteos</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Breadcrumb -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+                <li class="breadcrumb-item">Competiciones</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Carreras</li>
+            </ol>
+        </nav>
+
+
+
+        <!-- Pestaña -->
+        <div class="row">
+            <h1 style="text-decoration: underline">Próximas carreras</h1>
+        </div>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="a-tab" data-toggle="tab" href="#a" role="tab" aria-controls="a"
+                    aria-selected="true">Triatlón MD KM0</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="b-tab" data-toggle="tab" href="#b" role="tab" aria-controls="b"
+                    aria-selected="false">Triatlón La Bola del Mundo</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="c-tab" data-toggle="tab" href="#c" role="tab" aria-controls="c"
+                    aria-selected="false">Triatlón de Zarautz</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="d-tab" data-toggle="tab" href="#d" role="tab" aria-controls="d"
+                    aria-selected="false">Ironman Barcelona</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="a" role="tabpanel" aria-labelledby="a-tab">
+                <p style="text-align: justify;">Si te va lo duro, éste es, sin duda, tu triatlón. El año pasado
+                    debutaron en el calendario triatleta
+                    español a lo grande, con el larga distancia acabando en pleno centro de Madrid, y para este 2016
+                    incorporan un media distancia con gran parte del recorrido de su hermano mayor: natación en el lago
+                    de
+                    Buitrago de Lozoya y un recorrido en bicicleta por la sierra madrileña que da miedo: casi 3.000
+                    metros
+                    de desnivel a lo largo de 110 kilómetros totales con subidas a Morcuera y Cotos incluidas. La
+                    carrera a
+                    pie, por San Lorenzo del Escorial.</p>
+            </div>
+            <div class="tab-pane fade" id="b" role="tabpanel" aria-labelledby="b-tab">
+                <p style="text-align: justify;">El otro triatlón madrileño que metemos en este artículo es para casi dar
+                    miedo, con subida a
+                    Morcuera,
+                    Cotos... y Guarramillas, el mítico puerto de la sierra madrileña, más de tres kilómetros de hormigón
+                    con
+                    un desnivel del 11'8%. Como dijo una vez Ana García, éste es el triatlón que una vez hecho a todos
+                    nos
+                    gusta decir bien alto que lo hemos terminado. Da empaque.
+
+                    Si una vez metido entre pecho y espalda esta paliza pedaleando, desde la T2 comienzan veinte
+                    kilómetros
+                    de carrera a pie que son un auténtico trail de montaña, pasando por las cimas de Valdemartin, Cabeza
+                    de
+                    Hierro Mayor y Menor y hasta Asómate a Hoyos.</p>
+            </div>
+            <div class="tab-pane fade" id="c" role="tabpanel" aria-labelledby="c-tab">
+                <p style="text-align: justify;">El Muro de Aia es otra cosa. Rampas al 25%, 16'7% de desnivel medio de
+                    pedaladas lentas y
+                    maravillosas,
+                    en las que no avanzas, en las que sufres, en las que quieres que llegue ya el final y al mismo
+                    tiempo
+                    que no se acabe nunca. Y todo con gente animándote a los lados como si no hubiera mañana, como si
+                    estuvieras en plena etapa de La Vuelta al País Vasco.
+
+                    Y si con esto no tuvieras bastante, el Triatlón de Zarautz remata su segmento de bicicleta con el
+                    puerto
+                    de Txurruca, otra trampa cojonuda: quedan dos kilómetros para bajarte de la bici y te regalan rampas
+                    del
+                    15% sobre terreno de hormigón. Tela marinera.
+
+                    Si necesitáis más dureza, los 3.000 metros de la natación con fuertes corrientes y oleaje os harán
+                    disfrutar como enanos...
+
+                    Por algo las inscripciones duran 15 minutos...</p>
+            </div>
+            <div class="tab-pane fade" id="d" role="tabpanel" aria-labelledby="d-tab">
+                <p style="text-align: justify;">La prueba es ideal para poner el broche de oro a la temporada del
+                    triatlón, con atletas de todo el
+                    mundo
+                    que se enfrentarán a 3.8 kilómetros de antación en aguas del Mar Mediterráneo, 180 kilómetros de
+                    ciclismo rápidos sin apenas desnivel y 42.2 kilómetros de carrera a pie en primera línea de mar.</p>
+
+            </div>
+        </div>
+
+        <!-- Botón participar -->
+        <div class="row py-3">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" style="margin-left: auto;margin-right: auto;">
+                Participar
+            </button>
+
+            <!-- Modal -->
+            <div class=" modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Solicitud enviada</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            Se ha enviado la solicitud de inscripción. Mucha suerte!!
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pie con tres bloques -->
+        <div class="row py-3" style="background-color:dimgrey;">
+            <div class="col">
+                <h3 style="font-weight: bold;">Contacto</h3>
+                <p style="margin: 0;">Para más información, escribir a:</p>
+                <p> andoni@triatlon.es</p>
+            </div>
+            <div class="col">
+                <h3 style="font-weight: bold;">Dónde estamos</h3>
+                <p style="margin: 0;">Campus de Pamplona</p>
+                <p>31006 Pamplona</p>
+            </div>
+            <div class="col">
+                <h3 style="font-weight: bold;">Redes sociales</h3>
+                <div class="row">
+                    <div class="col">
+                        <img src="images/rrss_1.png" class="d-block" alt="...">
+                    </div>
+                    <div class="col">
+                        <img src="images/rrss_2.png" class="d-block" alt="...">
+                    </div>
+                    <div class="col">
+                        <img src="images/rrss_3.png" class="d-block" alt="...">
+                    </div>
+                    <div class="col">
+                        <img src="images/rrss_4.png" class="d-block" alt="...">
+                    </div>
+                    <div class="col">
+                        <img src="images/rrss_5.png" class="d-block" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script>$(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })</script>
+</body>
+
+</html>
